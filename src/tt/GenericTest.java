@@ -10,4 +10,8 @@ public class GenericTest<E> {
     E get() {
         return element;
     }
+
+    <T> T genericMethod(T t) {
+        return t;
+    }
 }
