@@ -25,7 +25,7 @@ public class elect {
             } else {
                 System.out.println("다시 하세요");
             }
-            System.out.println(kwh[i] + "kWh의 전기요금은 " +result+"원 입니다.");//9
+            System.out.println(kwh[i] + "kWh의 전기요금은 " +result+"원 입니다.");
         }
     }
 }
