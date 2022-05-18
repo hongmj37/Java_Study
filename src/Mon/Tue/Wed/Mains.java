@@ -2,7 +2,7 @@ package Mon.Tue.Wed;
 
 public class Mains {
     public static void main(String[] args) {
-        Test test = Test.GOOD;
+        Test test = Test.PERFECT;
 
         switch (test) {
             case PERFECT:
@@ -11,7 +11,10 @@ public class Mains {
             case GOOD:
                 System.out.println("움 ~ 굿 ~");
                 break;
-            case BAD:
+            case SoSo:
+                System.out.println("쏘 쏘");
+                break;
+           case BAD:
                 System.out.println("훔");
                 break;
         }
