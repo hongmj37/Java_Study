@@ -10,7 +10,7 @@ public class ArrayListTest {
 
         ls.add("crown");
         ls.add("lotte");
-        ls.add("orion");
+        ls.add("orion"); //추가
 
         for(int i=0; i < ls.size(); i++){
             String need = ls.get(i);
