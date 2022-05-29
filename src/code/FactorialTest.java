@@ -2,7 +2,7 @@ package code;
 
 public class FactorialTest {
     public static void main(String[] args) {
-        int input = 5;
+        int input = 10;
 
         System.out.println(fact(input));
     }
