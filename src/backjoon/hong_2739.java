@@ -1,5 +1,8 @@
 package backjoon;
-
+/*
+ time :  ms
+ memory :  KB
+ */
 import java.util.Scanner;
 
 public class hong_2739 {

@@ -1,7 +1,10 @@
 package backjoon;
 
 import java.util.Scanner;
-
+/*
+ time :  ms
+ memory :  KB
+ */
 public class hong_10950 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

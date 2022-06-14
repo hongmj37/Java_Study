@@ -1,8 +1,11 @@
 package backjoon;
-
+/* 주사위 세개
+ time : 212 ms
+ memory : 17628 KB
+ */
 import java.util.Scanner;
 
-public class Q2480 {
+public class hong_2480 {
     public static void main(String[] args) {
         System.out.println("주사위를 굴려 나온 1~6의 숫자 중 세 개를 띄어쓰기와 함께 입력하세요 (ex. 3 5 6)");
         Scanner input = new Scanner(System.in);

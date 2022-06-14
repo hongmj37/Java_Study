@@ -1,7 +1,9 @@
-package backjoon;
-
+package backjoon.조건문;
+/* 윤년
+ time :  ms
+ memory :  KB
+ */
 import java.util.Scanner;
-
 public class hong_2753 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
