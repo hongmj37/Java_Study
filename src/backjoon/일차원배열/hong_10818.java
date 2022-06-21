@@ -1,5 +1,8 @@
 package backjoon.일차원배열;
-
+/* 최소, 최대
+time : 524 ms
+memory : 91920KB
+ */
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
