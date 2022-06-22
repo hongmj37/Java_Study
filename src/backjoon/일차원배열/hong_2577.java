@@ -7,7 +7,11 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 /* 숫자의 개수
+time : 128 ms
+memory : 14256 KB
 
+처음에 if 문에서 'equal' 대신 '== 대입 연산자'를 사용했더니 계속해서 조건에 충족하지 않아
+카운팅 되지 않았다. 약간의 서치와 동료님 덕분에 String은 클래스임을 알게되어 equal로 바꾸어 문제를 해결하였다.
  */
 public class hong_2577 {
     public static void main(String[] args) throws IOException {
