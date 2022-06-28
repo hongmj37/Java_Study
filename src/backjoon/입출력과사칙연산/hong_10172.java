@@ -1,4 +1,4 @@
-package backjoon.일차원배열;
+package backjoon.입출력과사칙연산;
 
 public class hong_10172 {
     public static void main(String[] args) {
