@@ -3,7 +3,10 @@ package backjoon.문자열;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
+/* 글자 공부
+time : 288 ms
+memory : 21040 KB
+ */
 public class hong_1157_v2 {
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
