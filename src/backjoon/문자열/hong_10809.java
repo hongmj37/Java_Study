@@ -5,6 +5,6 @@ memory :
  */
 public class hong_10809 {
     public static void main(String[] args) {
-        
+
     }
 }
