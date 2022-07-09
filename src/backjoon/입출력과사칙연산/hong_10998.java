@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 /* AXB
 time: 124 ms
-memory: 14216 KB
+memory: 14216 KBD
 
  */
 public class hong_10998 {
