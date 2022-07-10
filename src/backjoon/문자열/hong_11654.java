@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
 time : 132 ms
 memory : 14256 KB
  */
-public class Q11654 {
+public class hong_11654 {
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         char what = bf.readLine().charAt(0);
