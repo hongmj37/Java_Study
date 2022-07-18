@@ -19,7 +19,7 @@ public class hong_1316_ {
         for (int x = 0; x < num; x++) {    //입력받은 개수만큼 반복할 것
             String str = bf.readLine();
             char[] arr = new char[str.length()];
-            int temp = 0;
+            int temp = 0;  //그룹단어 체크를 위한 임시 변수 (나중에 temp가 0이라면 count 시켜줌)
             for (int i = 0; i < str.length(); i++) {
                 arr[i] = str.charAt(i);
             } //입력받은 문자열을 char 단위로 쪼개어 arr에 저장
@@ -38,17 +38,19 @@ public class hong_1316_ {
                     for (int k = 0; k < j; k++) {     //다름이 발생한 인덱스2까지
                         if (arr[k] == arr[j + 1]) {  //arr[2]인 b가 되기 전인 arr[0]와 arr[1]에 b가 있는지 확인
                             temp++;         //같은게 있더라면 카운트 해주기 (0이되어야 앞에 동일한 것이 없음으로 간주)
+                                                //0이라는 것은 해당하는 알파벳과 동일한 알파벳이 나오지 않았다는 의미로 그룹 단어라는 의미
                             break;
                         }
                     }
                 }
             }
             if (temp == 0) {
-                count++;     //temp가 0이라면 카운트해줌
+                count++;     //temp가 0이라면 카운트해줌 ( 0이면 그룹단어 인 것 )
             }
 
         }
         System.out.println(count);
+        System.out.println();
     }
 }
 
