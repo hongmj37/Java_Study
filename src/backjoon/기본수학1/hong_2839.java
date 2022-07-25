@@ -12,10 +12,8 @@ public class hong_2839 {
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         int num = Integer.parseInt(bf.readLine());
-
-        //3과 5만으로 만들어 저야 함 -> 5의 배수가 아니라면 3을 지워가면서 5의 배수 만들기
-        //3과 5으로 나누어 지지 않으면 -1 반환
-        //가장 큰 봉지인 5kg을 먼저 사용하고 나머지를 3kg으로 채우는게 best 최적 !
+        //* point : 가장 큰 봉지인 5kg을 먼저 사용하고 나머지를 3kg으로 채우는게 best 최적 !
+        //5의 배수가 아니라면 3을 지워가면서 5의 배수 만들기 ( 5와 3으로 kg을 채울 수 없다면 -1 반환)
 
         int count = 0; //설탕봉지의 개수를 셀 count 변수 선언
 
@@ -29,12 +27,12 @@ public class hong_2839 {
                 break;
             }
             else {
-                num = num - 3;  //5의 배수가 아니라면 3kg으로 count해주고 3씩 빼주고 반복하기
+                num = num - 3;  //5의 배수가 아니였다면 3kg으로 count해주고 3씩 빼주고 반복하기
                 count++;
             }
         }
-        if (num != 0){  //위 과정을 반복하더라도 num의 나머지가 0이 아니면 3과 5의 설탕봉지로 채울 수 없음
-            count = -1;  //때문에 -1 반환
+        if (num != 0){  //위 과정을 반복하더라도 num의 나머지가 0이 아니면 3과 5키로의 설탕봉지로 나를 수 없음을 의미
+            count = -1;  //때문에 결과가 -1을 반환
         }
         System.out.println(count);
     }

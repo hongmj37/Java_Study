@@ -1,4 +1,4 @@
-package backjoon;
+package backjoon.조건문;
 /* 주사위 세개
  time : 212 ms
  memory : 17628 KB

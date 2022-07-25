@@ -1,4 +1,4 @@
-package backjoon;
+package backjoon.반복문;
 /*
  time :  ms
  memory :  KB

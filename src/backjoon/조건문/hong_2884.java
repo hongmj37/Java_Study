@@ -1,4 +1,4 @@
-package backjoon;
+package backjoon.조건문;
 /*
  time :  ms
  memory :  KB
