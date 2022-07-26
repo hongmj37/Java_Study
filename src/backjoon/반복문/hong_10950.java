@@ -26,7 +26,7 @@ public class hong_10950 {
     /*
          time :  ms
          memory :  KB
-         */
+
     public static class hong_10950 {
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
@@ -40,4 +40,5 @@ public class hong_10950 {
 
         }
     }
+     */
 }
