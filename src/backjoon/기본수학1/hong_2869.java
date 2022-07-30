@@ -13,9 +13,22 @@ public class hong_2869 {
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(bf.readLine()," ");
-        int V = Integer.parseInt(st.nextToken());
-        int A = Integer.parseInt(st.nextToken());
-        int B = Integer.parseInt(st.nextToken());
+        int A = Integer.parseInt(st.nextToken());  //낮 +
+        int B = Integer.parseInt(st.nextToken()); //밤 -
+        int V = Integer.parseInt(st.nextToken()); //높dl
 
+        int base = 0;
+        int date = 0;
+
+        while(base < V) {
+            if (base != V) {
+                base += A;
+                if (base != V ){
+                    base -= B;
+                }
+            }
+            date++;
+        }
+        System.out.println(date);
     }
 }
