@@ -21,7 +21,7 @@ public class hong_2869_2 {
         //마지막 날에는 미끄러지는 부분이 없는 것으로 결과적인 목표는 V-B인 꼴 !!
         int base = V - B;  //정싱에 도달했을 때 미끄러지지 않기 때문에 즉, 계산이 수행되지 않도록 미리 미끄럼을 빼줌
         int date = A - B;  //하루에 올라간 거리 : up - down
-        int result = base / date; 
+        int result = base / date;
 
         if (base % date != 0){
             result += 1;
