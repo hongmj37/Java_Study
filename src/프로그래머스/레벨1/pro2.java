@@ -10,5 +10,4 @@ public class pro2 {
         answer += phone_number.substring(phone_number.length()-4,phone_number.length());
         System.out.println(answer);
     }
-
 }

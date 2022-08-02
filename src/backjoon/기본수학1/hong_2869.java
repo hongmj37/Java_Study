@@ -15,7 +15,7 @@ public class hong_2869 {
         StringTokenizer st = new StringTokenizer(bf.readLine()," ");
         int A = Integer.parseInt(st.nextToken());  //낮 +
         int B = Integer.parseInt(st.nextToken()); //밤 -
-        int V = Integer.parseInt(st.nextToken()); //높dl
+        int V = Integer.parseInt(st.nextToken()); //높이
 
         int base = 0;
         int date = 0;
