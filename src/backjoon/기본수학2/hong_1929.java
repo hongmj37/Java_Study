@@ -10,12 +10,12 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 /* 에라토스테네스(?) 원리 사용 ..
 1. M과 N사이의 모든 수 중에서 2의 배수를 지움
-2. 지워지지 않고 남아있는 수 중에서 제일 작은 수의 배수를 지
+2. 지워지지 않고 남아있는 수 중에서 제일 작은 수의 배수를 지움 (즉, 다음은 3의 배수)
 
 * 숫자들이 소수인지 아닌지 판단하기 위해 true/false로 배열을 만듦 (소수면 false, 소수가 아니면 true)
 * false로 초기화 된 배열에서 소수가 아닌 것을 true로 바꾸어주고 false인 것만 추출하게 !
-
  */
+
 public class hong_1929 {
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
