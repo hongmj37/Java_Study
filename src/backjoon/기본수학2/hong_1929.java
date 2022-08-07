@@ -33,7 +33,7 @@ public class hong_1929 {
         arr[0] = true;
         arr[1] = true;
 
-        //** 여기서 i<=N하니간 ArrayIndexOutofBounds 런타임 에러 발생
+        //** 여기서 i<=N하니깐 ArrayIndexOutofBounds 런타임 에러 발생
           //** i*i로 바꾸니깐 성공하긴 했지만 이유는 모르겠다 ....
         for(int i=2; i*i<=N; i++){
             //소수일 때 = i가 소수라면
@@ -45,9 +45,9 @@ public class hong_1929 {
             }
         }
 
-        for (int i = M; i <= N; i++) {
-                if (arr[i]==false) {
-                    sb.append(i).append("\n");
+        for (int i = M; i <= N; i++) { //M과 N의 범위에서
+                if (arr[i]==false) {  //해당하는 인덱스가 false라면
+                    sb.append(i).append("\n");  //sb에 넣고 출력
                 }
         }
         System.out.println(sb);
