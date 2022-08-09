@@ -14,7 +14,6 @@ public class hong__10872 {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         int num = Integer.parseInt(bf.readLine());
         int result = factorial(num);
-
         System.out.println(result);
 
     }
