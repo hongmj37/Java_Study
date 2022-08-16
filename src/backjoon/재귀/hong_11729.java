@@ -7,8 +7,7 @@ import java.io.InputStreamReader;
 /* 하노이 탑 이동 순서
 time : 424 ms
 memory : 59960 KB
- */
-/*
+
 1. 원반은 한번에 하나씩만 옮길 수 있음
 2. 큰 원반 위에 작은 원반이 올라오게끔 해야함
  */
