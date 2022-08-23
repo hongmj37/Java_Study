@@ -21,7 +21,7 @@ public class hong_4779 {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in)); //입력용
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out)); //출력용
         String str;
-        while ((str=bf.readLine()) != null){  //
+        while ((str=bf.readLine()) != null){  //입력이 없을 때 까지 반복
             N = Integer.parseInt(str);
             int num = (int) Math.pow(3, N);  //3의 제곱을 의미 !
             arr = new char[num];  // 그 값만큼 배열 생성 n이 3이라면 27개의 배열 생성
