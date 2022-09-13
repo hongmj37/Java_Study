@@ -5,4 +5,7 @@ package backjoon.입출력과사칙연산;
  * memory :
  */
 public class hong_25083 {
+    public static void main(String[] args) {
+
+    }
 }
