@@ -15,6 +15,10 @@ public class iteratorTest {
         while (it.hasNext() == true) {
             String result = (String) it.next();
             System.out.println(result);
+            System.out.println("test");
         }
     }
 }
+
+
+
